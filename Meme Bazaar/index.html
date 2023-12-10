@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./filter.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css">
+  <title>Meme Bazaar</title>
+
+</head>
+
+
+<body>
+<div class="lightbox">
+  <div class="wrapper">
+    <header>
+    
+      <button class="clse">X</button>
+      
+      <button class="down">Download</button>
+      
+     
+    </header>
+    <div class="text-overlay">
+      <input type="text" id="textInput" placeholder="Type the caption" class="inputt">
+      <button class="addTextButton" onclick="addText()">Add Caption</button>
+   
+    </div>
+    <div class="preview-img">
+      <div class="img"><img class="imge" src="" alt=""></div>
+    </div>
+  </div>
+</div>
+  <nav class="navbar">
+
+    <img  class="imm" src="img/km.png" alt="imgse">
+    <h1 class="logo">Meme<span>bazaar</span></h1>
+    <h3 class="description"> Find the collection of trending and
+      relatable Desi memes perfect for content creation, for your everyday conversations and social media posts at Meme
+      Bazaar</h3>
+    <div class="search-bar">
+      <input type="text" placeholder="Search the collection of Indian memes" class="search"
+        onfocus="this.placeholder=''" onblur="this.placeholder='Search the collection of Indian memes'" />
+
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="leftMenu">
+      <div class="cats">
+      </div>
+    </div>
+    <div class="content">
+      <div class="products">
+    
+      </div>
+    </div>
+  </div>
+
+
+
+ 
+  
+  <script src="./filter.js"></script>
+</body>
+
+</html>
